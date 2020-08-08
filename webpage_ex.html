@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Web Page</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            width: 100%;
+            background-color: #990066;
+            /* background-color: red; */
+            padding-left: 110px;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .uList {
+            margin: 0;
+            color: white;
+            list-style-type: none;
+            text-align: center;
+            padding: 0;
+        }
+
+        .uItem {
+            display: inline-block;
+            padding: 40px;
+            margin-top: 10px;
+            font-size: 20px;
+            text-decoration: underline;
+        }
+
+        .formBlock {
+            text-align: right;
+            padding: 5px;
+        }
+
+        input {
+            border: none;
+            border-radius: 5px;
+            width: 180px;
+            height: 25px;
+            text-align: left;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        button {
+            border: none;
+            border-radius: 5px;
+            width: 43px;
+            height: 35px;
+            background-color: white;
+        }
+
+        .sList {
+            text-align: left;
+            color: white;
+            font-size: 19px;
+            background-color: #990066;
+            width: 250px;
+           position: fixed;
+           height: 100%;
+            list-style-type: none;
+        }
+
+        .sItem {
+            padding: 20px;
+            margin-left: 20px;
+            padding-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="container">
+                <div class="navbar">
+            <ul class="uList">
+                <li class="uItem">Home</li>
+                <li class="uItem">Programming</li>
+                <li class="uItem">Data struture</li>
+                <li class="uItem">Algorithm</li>
+                <li class="uItem">Others</li>
+                <li class="uItem">Academic</li>
+
+            </ul>
+        </div>
+        <div class="formBlock navbar">
+            <form>
+                <input type="text" placeholder="search">
+                <button>Go</button>
+            </form>
+        </div>
+
+    </div>
+    <div class="sList">
+        <u>
+            <li class="sItem">Dashboard</li>
+            <li class="sItem">Add New Post</li>
+            <li class="sItem">Categories</li>
+            <li class="sItem">Manage Admins</li>
+            <li class="sItem">Comments</li>
+            <li class="sItem">Live Blogs</li>
+        </u>
+    </div>
+    </div>
+</body>
+
+</html>

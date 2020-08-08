@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            height: 55px;
+        }
+
+        .navBar {
+            height: 0px;
+            background: white;
+            text-align: center;
+        }
+
+        .navBarList {
+            list-style: none;
+            margin-left: 712px;
+            margin-top: 0px;
+        }
+
+        .navBarItem {
+            display: inline-block;
+            margin: 20px;
+        }
+
+        .logo {
+            font-size: 30px;
+            list-style: none;
+            width: 450px;
+            height: 72px;
+            margin-top: 10px;
+            padding-top: 10px;
+            font-family: sans-serif;
+            font-weight: 700;
+        }
+
+        img {
+            position: relative;
+
+        }
+
+        .formItem {
+            display: inline-block;
+            text-align: left;
+            background-color: white;
+            padding: 10px;
+            width: 243px;
+            margin: 6px;
+            border: none;
+            position: relative;
+            top: 50px;
+            left: 50px;
+        }
+
+        .formList {
+            width: 364px;
+            height: 306px;
+            position: relative;
+            left: 874px;
+            top: -807px;
+            display: inline-block;
+            background-color: white;
+        }
+        button{
+            border-radius: 20px;
+            background-color: rgb(43, 78, 175);
+            padding: 10px;
+            width: 243px;
+            margin: 6px;
+            border: none;
+            position: relative;
+            top: 50px;
+            left: 50px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navBar">
+            <li class="logo">Site Name</li>
+        </div>
+        <div class="navBar">
+            <ul class="navBarList">
+                <li class="navBarItem">HOME</li>
+                <li class="navBarItem">ABOUT</li>
+                <li class="navBarItem">SERVICES</li>
+                <li class="navBarItem">PROJECT</li>
+                <li class="navBarItem">BLOG</li>
+                <li class="navBarItem">CONTACT</li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <img src="http://www.laconchakeywest.com/resourcefiles/mainimages/location-directions-of-key-west-hotel-top.jpg">
+        <div>
+            <form class="formList">
+                <input type="text" placeholder="Full Name" class="formItem">
+                <input type="email" placeholder="Email" class="formItem">
+                <input type="password" placeholder="Password" class="formItem">
+                <button class="button">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
