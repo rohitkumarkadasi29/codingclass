@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .innerNavBarList {
+            background: lightgray;
+        }
+
+        .innerItems {
+            position: relative;
+            display: inline-flex;
+            padding: 29px;
+        }
+
+        .innerItems:hover .photographyList {
+            display: block;
+        }
+
+        .photographyList {
+            list-style: none;
+            display: none;
+            background: black;
+            position: absolute;
+            left: 40px;
+            top: 77px;
+            padding: 10px 55px;
+        }
+
+        .photographyItem {
+            padding: 20px;
+            color: white;
+            font-size: 20px;
+        }
+
+        .designList {
+            display: none;
+            list-style: none;
+            background-color: black;
+            position: absolute;
+            top: 77px;
+            left: 40px;
+            padding: 10px 55px;
+
+        }
+
+        .designItem {
+            padding: 20px;
+            color: white;
+            font-size: 20px;
+        }
+
+        .innerItems:hover .designList {
+            display: block;
+        }
+
+        .musicList {
+            display: none;
+            position: absolute;
+            top: 77px;
+            left: 40px;
+            list-style: none;
+            background-color: black;
+            padding: 10px 55px;
+        }
+
+        .musicItem {
+            padding: 20px;
+            color: white;
+            font-size: 20px;
+        }
+
+        .innerItems:hover .musicList {
+            display: block;
+        }
+
+        .smallbizList {
+            display: none;
+            background-color: black;
+            position: absolute;
+            top: 77px;
+            left: 40px;
+            padding: 10px 55px;
+            list-style: none;
+        }
+
+        .smallbizItem {
+            color: white;
+            font-size: 20px;
+            padding: 20px;
+        }
+
+        .innerItems:hover .smallbizList {
+            display: block;
+        }
+
+        .hotelsList {
+            background-color: black;
+            position: absolute;
+            top: 77px;
+            left: 40px;
+            display: none;
+            list-style: none;
+            padding: 10px 50px;
+        }
+
+        .hotelsItem {
+            color: white;
+            font-size: 20px;
+            padding: 20px;
+        }
+
+        .innerItems:hover .hotelsList {
+            display: block;
+        }
+        .subItems{
+            display: inline-flex;
+            position: relative;
+        }
+
+        .pSubList {
+            background-color: black;
+            position: absolute;
+            left: 85px;
+            top: 35px;
+            list-style: none;
+            display: none;
+            padding: 10px 30px;
+        }
+
+        .pSubItem {
+            padding: 10px;
+        }
+        .photographyItem:hover .pSubList{
+            display: block;
+        }
+        .subItems2{
+            position: relative;
+            display: inline-flex;
+        }
+        .pSubList2{
+            position: absolute;
+            top: 20px;
+            left: 75px;
+            list-style: none;
+            display: none;
+            background-color: black;
+            padding: 10px 30px;
+        }
+        .pSubItem2{
+            padding: 10px;
+        }
+        .pSubList2:hover .subItems2{
+            display: block;
+        }
+        .pSubItem:hover .pSubList2{
+            display: block;
+        }
+        .photographyItem:hover{
+            color: red;
+            padding: 20px;
+            background-color: yellow;
+        }
+       table {
+           width: 50%;
+           margin: auto;
+           border-collapse: collapse;
+           border: 1px solid black;
+       }
+      thead tr   th  {
+        background-color: cadetblue;
+        color: white;
+        border: 1px solid black;
+        padding:10px;
+       }
+       tbody tr:hover{
+           background-color: thistle;
+       }
+       tbody tr:nth-child(even){
+           background-color: violet;
+       }
+       tbody tr:nth-child(odd){
+           background-color: yellow;
+       }
+       tbody tr td  {
+           border:  1px solid black;
+           padding: 10px;   
+       }
+       tbody tr td {
+           text-align:  center;
+       }
+        
+    </style>
+</head>
+
+<body>
+    <div>
+        <ul class="innerNavBarList">
+            <li class="innerItems">
+                PHOTOGRAPHY
+                <ul class="photographyList">
+                    <li class="photographyItem">Item1</li>
+                    <li class="photographyItem subItems">Item2
+                        <ul class="pSubList">
+                            <li class="pSubItem">Level2</li>
+                            <li class="pSubItem subItems2">Level2
+                                <ul class="pSubList2">
+                                    <li class="pSubItem2">Level3</li>
+                                    <li class="pSubItem2">Level3</li>
+                                    <li class="pSubItem2">Level3</li>
+                                </ul>
+                            </li>
+                            <li class="pSubItem">Level2</li>
+                        </ul>
+                    </li>
+                    <li class="photographyItem">Item3</li>
+                    <li class="photographyItem">Item4 </li>
+                    <li class="photographyItem">Item5</li>
+                </ul>
+            </li>
+            <li class="innerItems">DESIGN
+                <ul class="designList">
+                    <li class="designItem">Item1</li>
+                    <li class="designItem">Item1</li>
+                    <li class="designItem">Item1</li>
+                    <li class="designItem">Item1</li>
+                    <li class="designItem">Item1</li>
+                </ul>
+            </li>
+            <li class="innerItems">MUSIC
+                <ul class="musicList">
+                    <li class="musicItem">Item1</li>
+                    <li class="musicItem">Item2</li>
+                    <li class="musicItem">Item3</li>
+                    <li class="musicItem">Item4</li>
+                    <li class="musicItem">Item5</li>
+                </ul>
+            </li>
+            <li class="innerItems">SMALL BIZ
+                <ul class="smallbizList">
+                    <li class="smallbizItem">Item1</li>
+                    <li class="smallbizItem">Item2</li>
+                    <li class="smallbizItem">Item3</li>
+                    <li class="smallbizItem">Item4</li>
+                    <li class="smallbizItem">Item5</li>
+                </ul>
+            </li>
+            <li class="innerItems">HOTELS
+                <ul class="hotelsList">
+                    <li class="hotelsItem">Item1</li>
+                    <li class="hotelsItem">Item2</li>
+                    <li class="hotelsItem">Item3</li>
+                    <li class="hotelsItem">Item4</li>
+                    <li class="hotelsItem">Item5</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Company</th>
+                    <th>Contact</th>
+                    <th>Country</th>
+                </tr> 
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alfreds Futterkiste</td>
+                    <td>Maria Anders</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>Berglunds snabbköp</td>
+                    <td>Christina Berglund</td>
+                    <td>Sweden</td>
+                </tr> <tr>
+                    <td>Centro comercial Moctezuma</td>
+                    <td>Francisco Chang</td>
+                    <td>Mexico</td>
+                </tr>
+                <tr>
+                    <td>Ernst Handel</td>
+                    <td>Roland Mendel</td>
+                    <td>Austria</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
