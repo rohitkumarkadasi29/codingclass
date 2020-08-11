@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navList {
+    margin-left: 330px;
+}
+.navBar {
+    padding: 4px 10px 4px 100px;
+    background-color: #242020;
+}
+.navBarItem {
+    display: inline-block;
+}
+.logo {
+    vertical-align: middle;
+    display: inline;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-left: 10px;
+    width: 65px;
+    height: 61px;
+    border-radius: 72px;
+}
+.logoWrapper {
+    margin-left: 30px;
+}
+.navItem {
+    display: inline;
+    color: white;
+    margin: -4px;
+    padding: 28px;
+}
+.navItem:hover {
+    padding: 25px 25px 32px 25px;
+}
+.color1{
+    background-color: #3939ac;
+}
+.color2{
+    background-color: rgb(9, 178, 245);
+}
+.color3{
+    background-color: greenyellow;
+}
+.color4{
+    background-color: rgb(248, 192, 8);
+}
+.color5{
+    background-color: rgb(255, 153, 0);
+}
+.color6{
+    background-color: red;
+}
+.borderWrapper {
+    height: 3px;
+    background: silver;
+    margin-top: 4px;
+}
+.subContainer{
+    background-color: silver;
+    width: 100%;
+    height: 420px;
+}
+.imgWrapper{
+    height: 370px;
+    width: 45%;
+    position: relative;
+    left: 425px;
+    top: 20px;
+}
+.imgWrapper1{
+    height: 280px;
+    width: 30%;
+    position: absolute;
+    left: 195px;
+    top: 138px;
+}
+.imgWrapper2{
+    height: 320px;
+    width: 30%;
+    position: absolute;
+    left: 864px;
+    top: 125px;
+}
+
