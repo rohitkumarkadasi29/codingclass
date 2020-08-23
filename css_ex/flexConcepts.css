@@ -1,0 +1,174 @@
+body{
+    background-color: #53CFC5;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navBar {
+    display: flex;
+}
+.container .navBar h1 {
+    font-size: 21px;
+    font-weight: 500;
+    color:  white;
+    font-family: monospace;
+}
+.symbolWrapper {
+    display: none;
+}
+.symbol {
+    margin: 2px;
+    height: 3px;
+    background-color: black;
+    width: 28px;
+}
+.navBarList {
+    display: flex;
+    align-items: center;
+}
+.navBarItem {
+    list-style: none;
+    padding: 0px 20px;
+    color: white;
+}
+.container .navBarList button {
+    padding: 10px 14px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: #53CFC5;
+    color: white;
+}
+.container .navBarList button:hover{
+    background-color: black;
+    color: white;
+}
+.navBarItem:hover{
+    opacity: 0.7;
+    text-decoration: underline;
+}
+.subContainer {
+    margin: 50px 135px;
+}
+.flexWeapper {
+    display: flex;
+}
+.containerWrapper {
+    width: 40%;
+}
+.logo {
+    margin: 190px 90px;
+}
+.subContainer .containerWrapper h1 {
+    font-family: sans-serif;
+    font-size: 45px;
+    color: white;
+}
+.subContainer .containerWrapper p {
+    line-height: 35px;
+    font-size: 19px;
+    color: white;
+    font-family: monospace;
+}
+.subContainerBtn {
+    padding: 20px 30px;
+    color: #53CFC5;
+    border-radius: 30px;
+    font-size: 18px;
+    border: 1px solid white;
+}
+.subContainerBtn:hover{
+    background-color: black;
+    color: white;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 479px){
+    .container {
+        flex-direction: column;
+        display: flex;
+    }
+    .navBar {
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+    }
+    .container .navBar h1 {
+        font-size: 30px;
+        font-weight: 500;
+        color: white;
+        font-family: monospace;
+        margin-left: 10px;
+    }
+    .symbolWrapper {
+        margin-right: 20px;
+        padding-top: 29px;
+        display: block;
+        align-items: center;
+    }
+    .symbol {
+        margin: 3px;
+        height: 4px;
+        background-color: white;
+        width: 27px;
+        border-radius: 20px;
+    }
+    .symbol:hover .navBarList {
+        display: flex;
+        flex-direction: column;
+        padding-right: 45px;
+    }
+    .navBarList {
+        display: none;
+    }
+    .navBarItem {
+        list-style: none;
+        padding: 10px;
+        color: white;
+    }
+    .container .navBar .navBarList button {
+        padding: 15px 14px;
+        border: 1px solid white;
+        border-radius: 20px;
+        background-color: #53CFC5;
+        color: white;
+        margin-top: 15px;
+    }
+    .subContainer {
+        margin: 0px;
+        padding: 0px 20px;
+    }
+    .flexWeapper {
+        display: block;
+    }
+    .containerWrapper {
+        width: auto;
+    }
+    .subContainer .containerWrapper h1 {
+        font-family: sans-serif;
+        font-size: 30px;
+        color: white;
+    }
+    .subContainer .containerWrapper p {
+        line-height: 27px;
+        font-size: 15px;
+        color: white;
+        font-family: monospace;
+    }
+    .subContainerBtn {
+        padding: 15px 20px;
+        color: #53CFC5;
+        border-radius: 30px;
+        font-size: 18px;
+        border: 1px solid white;
+    }
+    img {
+        height: 135px;
+        margin: 40px 0px;
+    }
+    .logo {
+        margin: 0px;
+    }
+
+}

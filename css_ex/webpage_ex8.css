@@ -38,10 +38,11 @@ span{
     height: 520px;
     opacity: 0.8;
 }
-.footerContainer{
-        position: relative;
-        top: -65px;
-        left: 85px;
+.footerContainer {
+    width: 88%;
+    position: relative;
+    margin: auto;
+    top: -65;
 }
 .footer{
     display: inline-block;
