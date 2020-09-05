@@ -1,0 +1,49 @@
+objects
+       how to add element into an empty object?
+arrays
+arrayMethods
+       push 
+       pop
+       shift  &  unshift
+       concat
+       map
+       slice
+       splice
+       fliter
+       find
+       findIndex
+       indexOf
+       join
+       includes(t or f)
+       lastIndexOf
+       length
+       sort((a,b) => (a-b))
+       reverse
+String methods
+      charAt
+      toLowerCase
+      toUpperCase
+      charAtCode
+      slice
+      split
+      trim
+      indexOf
+      subStr
+      subString
+      localeCompare
+      startsWith
+      endsWith
+      localeToLowerCase
+      localeToLowerCase
+      toString
+      replace
+      search
+      repeate
+      concat
+      fromCharCode
+      lastIndexOf
+      length
+      match
+      
+      
+      
