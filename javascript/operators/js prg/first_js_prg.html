@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./first_js_prg.css">
+</head>
+
+<body>
+    <!-- <div>
+            <input type="text" id="firstname" placeholder="Firstname"><br><br>
+            <input type="text" id="lastname" placeholder="LastName"><br><br>
+            <input type="text" id="username" placeholder="Username"><br><br>
+            <input type="password" id="password" placeholder="password"><br><br>
+            <button onclick="signupHanlder()">submit</button>
+        </div> -->
+    <div class="container">
+        <div class="subContainer">
+            <input type="text" id="username" placeholder="Username" class="userInput"><br><br>
+            <input type="password" id="password" placeholder="Password" class="userInput"><br><br>
+            <button onclick="logInData()" class="loginBtn">log in</button><br><br>
+        </div>
+        <div class="math">
+            <button class="mathBtn" onclick="getIncrement()">increment</button>
+            <input type="number" id="number" value="0">
+            <button class="mathBtn" onclick="getDecrement()">decrement</button>
+        </div>
+    </div>
+
+
+    <form id="form">
+        <input type="text" id="name" placeholder="name">
+        <input type="submit" value="submit">
+    </form>
+
+    <ul id="list">
+
+        </ul>
+<button onclick="clearAll()">Clear</button>
+
+
+
+    <script src="./first_js_prg.js">
+    </script>
+</body>
+
+</html>
